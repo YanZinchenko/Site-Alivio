@@ -19,3 +19,9 @@ body {
     background: transparent;
     font-size: 0;
 }
+
+/* Grid */
+
+.container {
+    width: 1400px;
+}
