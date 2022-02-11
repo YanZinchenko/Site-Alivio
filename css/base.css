@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    color: #424242;
 }
 
 .none {
@@ -23,5 +24,9 @@ body {
 /* Grid */
 
 .container {
-    width: 1370px;
+    width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
