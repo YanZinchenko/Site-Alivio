@@ -6,6 +6,12 @@ body {
     color: #424242;
 }
 
+@media (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+}
+
 .none {
     display: none !important;
 }
@@ -30,4 +36,10 @@ body {
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+    }
 }

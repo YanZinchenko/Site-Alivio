@@ -2,6 +2,7 @@
     padding-top: 17px;
     padding-bottom: 17px;
     border-bottom: 1px solid #d6d6d6;
+    line-height: 1;
 }
 
 .header-row {
@@ -38,6 +39,7 @@
 }
 
 .header-login-link {
+    margin-top: -1px;
     color: #000;
     text-decoration: none;
     transition: color 0.2s ease;
@@ -48,4 +50,28 @@
 }
 .header-login > * + * {
     margin-left: 35px;
+}
+
+@media (max-width: 1199px) {
+    .header-row {
+        justify-content: space-between;
+    }
+    .header-nav {
+        margin-left: 30px;
+    }
+
+    .header-nav li + li {
+        margin-left: 50px;
+    }
+
+    .header-login {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-nav,
+    .header-login {
+        display: none;
+    }
 }
